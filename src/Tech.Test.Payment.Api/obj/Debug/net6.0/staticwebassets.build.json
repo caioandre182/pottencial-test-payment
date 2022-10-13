@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "TEp9pReCKMTiWZd0wCYrQ0hI2QV7ENyEs9P/q99X0T8=",
+  "Source": "Tech.Test.Payment.Api",
+  "BasePath": "_content/Tech.Test.Payment.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

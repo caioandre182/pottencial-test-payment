@@ -1,0 +1,272 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\caios\\OneDrive\\Área de Trabalho\\tech-test-payment-api\\tech-test-payment-api\\src\\Tech.Test.Payment.Infra.IoC\\Tech.Test.Payment.Infra.IoC.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\caios\\OneDrive\\Área de Trabalho\\tech-test-payment-api\\tech-test-payment-api\\src\\Tech.Test.Payment.Application\\Tech.Test.Payment.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\caios\\OneDrive\\Área de Trabalho\\tech-test-payment-api\\tech-test-payment-api\\src\\Tech.Test.Payment.Application\\Tech.Test.Payment.Application.csproj",
+        "projectName": "Tech.Test.Payment.Application",
+        "projectPath": "C:\\Users\\caios\\OneDrive\\Área de Trabalho\\tech-test-payment-api\\tech-test-payment-api\\src\\Tech.Test.Payment.Application\\Tech.Test.Payment.Application.csproj",
+        "packagesPath": "C:\\Users\\caios\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\caios\\OneDrive\\Área de Trabalho\\tech-test-payment-api\\tech-test-payment-api\\src\\Tech.Test.Payment.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\caios\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\caios\\OneDrive\\Área de Trabalho\\tech-test-payment-api\\tech-test-payment-api\\src\\Tech.Test.Payment.Domain\\Tech.Test.Payment.Domain.csproj": {
+                "projectPath": "C:\\Users\\caios\\OneDrive\\Área de Trabalho\\tech-test-payment-api\\tech-test-payment-api\\src\\Tech.Test.Payment.Domain\\Tech.Test.Payment.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\caios\\OneDrive\\Área de Trabalho\\tech-test-payment-api\\tech-test-payment-api\\src\\Tech.Test.Payment.Domain\\Tech.Test.Payment.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\caios\\OneDrive\\Área de Trabalho\\tech-test-payment-api\\tech-test-payment-api\\src\\Tech.Test.Payment.Domain\\Tech.Test.Payment.Domain.csproj",
+        "projectName": "Tech.Test.Payment.Domain",
+        "projectPath": "C:\\Users\\caios\\OneDrive\\Área de Trabalho\\tech-test-payment-api\\tech-test-payment-api\\src\\Tech.Test.Payment.Domain\\Tech.Test.Payment.Domain.csproj",
+        "packagesPath": "C:\\Users\\caios\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\caios\\OneDrive\\Área de Trabalho\\tech-test-payment-api\\tech-test-payment-api\\src\\Tech.Test.Payment.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\caios\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\caios\\OneDrive\\Área de Trabalho\\tech-test-payment-api\\tech-test-payment-api\\src\\Tech.Test.Payment.Infra.Data\\Tech.Test.Payment.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\caios\\OneDrive\\Área de Trabalho\\tech-test-payment-api\\tech-test-payment-api\\src\\Tech.Test.Payment.Infra.Data\\Tech.Test.Payment.Infra.Data.csproj",
+        "projectName": "Tech.Test.Payment.Infra.Data",
+        "projectPath": "C:\\Users\\caios\\OneDrive\\Área de Trabalho\\tech-test-payment-api\\tech-test-payment-api\\src\\Tech.Test.Payment.Infra.Data\\Tech.Test.Payment.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\caios\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\caios\\OneDrive\\Área de Trabalho\\tech-test-payment-api\\tech-test-payment-api\\src\\Tech.Test.Payment.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\caios\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\caios\\OneDrive\\Área de Trabalho\\tech-test-payment-api\\tech-test-payment-api\\src\\Tech.Test.Payment.Domain\\Tech.Test.Payment.Domain.csproj": {
+                "projectPath": "C:\\Users\\caios\\OneDrive\\Área de Trabalho\\tech-test-payment-api\\tech-test-payment-api\\src\\Tech.Test.Payment.Domain\\Tech.Test.Payment.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\caios\\OneDrive\\Área de Trabalho\\tech-test-payment-api\\tech-test-payment-api\\src\\Tech.Test.Payment.Infra.IoC\\Tech.Test.Payment.Infra.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\caios\\OneDrive\\Área de Trabalho\\tech-test-payment-api\\tech-test-payment-api\\src\\Tech.Test.Payment.Infra.IoC\\Tech.Test.Payment.Infra.IoC.csproj",
+        "projectName": "Tech.Test.Payment.Infra.IoC",
+        "projectPath": "C:\\Users\\caios\\OneDrive\\Área de Trabalho\\tech-test-payment-api\\tech-test-payment-api\\src\\Tech.Test.Payment.Infra.IoC\\Tech.Test.Payment.Infra.IoC.csproj",
+        "packagesPath": "C:\\Users\\caios\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\caios\\OneDrive\\Área de Trabalho\\tech-test-payment-api\\tech-test-payment-api\\src\\Tech.Test.Payment.Infra.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\caios\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\caios\\OneDrive\\Área de Trabalho\\tech-test-payment-api\\tech-test-payment-api\\src\\Tech.Test.Payment.Application\\Tech.Test.Payment.Application.csproj": {
+                "projectPath": "C:\\Users\\caios\\OneDrive\\Área de Trabalho\\tech-test-payment-api\\tech-test-payment-api\\src\\Tech.Test.Payment.Application\\Tech.Test.Payment.Application.csproj"
+              },
+              "C:\\Users\\caios\\OneDrive\\Área de Trabalho\\tech-test-payment-api\\tech-test-payment-api\\src\\Tech.Test.Payment.Domain\\Tech.Test.Payment.Domain.csproj": {
+                "projectPath": "C:\\Users\\caios\\OneDrive\\Área de Trabalho\\tech-test-payment-api\\tech-test-payment-api\\src\\Tech.Test.Payment.Domain\\Tech.Test.Payment.Domain.csproj"
+              },
+              "C:\\Users\\caios\\OneDrive\\Área de Trabalho\\tech-test-payment-api\\tech-test-payment-api\\src\\Tech.Test.Payment.Infra.Data\\Tech.Test.Payment.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\caios\\OneDrive\\Área de Trabalho\\tech-test-payment-api\\tech-test-payment-api\\src\\Tech.Test.Payment.Infra.Data\\Tech.Test.Payment.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

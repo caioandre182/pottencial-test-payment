@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "x5N4JPUuXhRXY16UM14yWyi9b3l1qUHy6eHarVXTgeeAHMvbFO82keyUe1dK7VPFAIiL/BDbVHaFXLR/SebTMA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\caios\\OneDrive\\Área de Trabalho\\tech-test-payment-api\\tech-test-payment-api\\src\\Tech.Test.Payment.Application\\Tech.Test.Payment.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\caios\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\caios\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
+    "C:\\Users\\caios\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{87FAD6EC-E9BB-45AA-8D3B-0A9184628EAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tech.Test.Payment.Application", "src\Tech.Test.Payment.Application\Tech.Test.Payment.Application.csproj", "{79FA90DC-3151-4FA5-BEB2-65839C551E0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tech.Test.Payment.Infra.IoC", "src\Tech.Test.Payment.Infra.IoC\Tech.Test.Payment.Infra.IoC.csproj", "{2D920416-6D18-452A-9A49-6BEF51D420E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tech.Test.Payment.Domain", "src\Tech.Test.Payment.Domain\Tech.Test.Payment.Domain.csproj", "{BEF6C23D-2AA9-483A-BAB1-A66E69E4CA19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tech.Test.Payment.Infra.Data", "src\Tech.Test.Payment.Infra.Data\Tech.Test.Payment.Infra.Data.csproj", "{ECCA8D11-6336-4426-ABB2-25101AB6BE25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tech.Test.Payment.Api", "src\Tech.Test.Payment.Api\Tech.Test.Payment.Api.csproj", "{69212472-C3D3-4868-A3F1-D7622CF5481C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tech.Test.Payment.Tests", "src\Tech.Test.Payment.Tests\Tech.Test.Payment.Tests.csproj", "{999FCADB-BBBD-4C19-BC76-FD9FF300E909}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79FA90DC-3151-4FA5-BEB2-65839C551E0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79FA90DC-3151-4FA5-BEB2-65839C551E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79FA90DC-3151-4FA5-BEB2-65839C551E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79FA90DC-3151-4FA5-BEB2-65839C551E0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D920416-6D18-452A-9A49-6BEF51D420E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D920416-6D18-452A-9A49-6BEF51D420E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D920416-6D18-452A-9A49-6BEF51D420E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D920416-6D18-452A-9A49-6BEF51D420E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEF6C23D-2AA9-483A-BAB1-A66E69E4CA19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF6C23D-2AA9-483A-BAB1-A66E69E4CA19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF6C23D-2AA9-483A-BAB1-A66E69E4CA19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF6C23D-2AA9-483A-BAB1-A66E69E4CA19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECCA8D11-6336-4426-ABB2-25101AB6BE25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECCA8D11-6336-4426-ABB2-25101AB6BE25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECCA8D11-6336-4426-ABB2-25101AB6BE25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECCA8D11-6336-4426-ABB2-25101AB6BE25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69212472-C3D3-4868-A3F1-D7622CF5481C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69212472-C3D3-4868-A3F1-D7622CF5481C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69212472-C3D3-4868-A3F1-D7622CF5481C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69212472-C3D3-4868-A3F1-D7622CF5481C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{999FCADB-BBBD-4C19-BC76-FD9FF300E909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{999FCADB-BBBD-4C19-BC76-FD9FF300E909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{999FCADB-BBBD-4C19-BC76-FD9FF300E909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{999FCADB-BBBD-4C19-BC76-FD9FF300E909}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{79FA90DC-3151-4FA5-BEB2-65839C551E0C} = {87FAD6EC-E9BB-45AA-8D3B-0A9184628EAC}
+		{2D920416-6D18-452A-9A49-6BEF51D420E0} = {87FAD6EC-E9BB-45AA-8D3B-0A9184628EAC}
+		{BEF6C23D-2AA9-483A-BAB1-A66E69E4CA19} = {87FAD6EC-E9BB-45AA-8D3B-0A9184628EAC}
+		{ECCA8D11-6336-4426-ABB2-25101AB6BE25} = {87FAD6EC-E9BB-45AA-8D3B-0A9184628EAC}
+		{69212472-C3D3-4868-A3F1-D7622CF5481C} = {87FAD6EC-E9BB-45AA-8D3B-0A9184628EAC}
+		{999FCADB-BBBD-4C19-BC76-FD9FF300E909} = {87FAD6EC-E9BB-45AA-8D3B-0A9184628EAC}
+	EndGlobalSection
+EndGlobal
